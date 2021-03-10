@@ -59,7 +59,7 @@
             'highcharts/modules/exporting'
         ]
     };
-    requirePaths['highcharts/modules/variable-pie'] = prefix + '/amd-components/highcharts/modules/variable-pie';
+    //requirePaths['highcharts/modules/variable-pie'] = prefix + '/amd-components/highcharts/modules/variable-pie';
     requirePaths['highcharts-cdf/components/components/HighchartsComponent'] = prefix + '/HighchartsComponent';
 
     // para importar no CDE

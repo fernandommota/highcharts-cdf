@@ -2,7 +2,6 @@ define([
     'highcharts',
     'highcharts/modules/exporting',
     'highcharts/modules/offline-exporting',
-    'highcharts/modules/variable-pie',
 ], function(Highcharts, exporting, offlineExporting) {
     // We need to initialize module files and pass in Highcharts
     exporting(Highcharts);
