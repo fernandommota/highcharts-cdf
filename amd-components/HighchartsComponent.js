@@ -7,7 +7,7 @@ define([
     // We need to initialize module files and pass in Highcharts
     exporting(Highcharts);
     offlineExporting(Highcharts);
-    variablePie(Highcharts);
+    // variablePie(Highcharts);
     // Load exporting before accessibility
     //accessibility(Highcharts);
 
