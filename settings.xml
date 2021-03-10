@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+	<cde-components>
+                <path>system/highcharts-cdf/components</path>
+                <path>highcharts-cdf/components</path>
+                <path>system/highcharts-cdf/amd-components</path>
+                <path>highcharts-cdf/amd-components</path>
+	</cde-components>
+</settings>
