@@ -3,10 +3,11 @@ define([
     'highcharts/modules/exporting',
     'highcharts/modules/offline-exporting',
     'highcharts/modules/variable-pie',
-], function(Highcharts, exporting, offlineExporting) {
+], function(Highcharts, exporting, offlineExporting, variablePie) {
     // We need to initialize module files and pass in Highcharts
     exporting(Highcharts);
     offlineExporting(Highcharts);
+    variablePie(Highcharts);
     // Load exporting before accessibility
     //accessibility(Highcharts);
 
